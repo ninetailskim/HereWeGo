@@ -1,0 +1,24 @@
+<!--page/profile/profile.wxml-->
+<scroll-view class="page-body">
+  <view class="up">
+    <view class="upleft">
+      <image class="head" src="{{userinfo.imagesrc}}"></image>
+    </view>
+    <view class="upright">
+      <view class="name">{{userinfo.name}}</view>
+      <view class="grade">{{userinfo.grade}}</view>
+      <view class="hat">{{userinfo.hat}}</view>
+      <view class="louder" bindtap='louder'>放大</view>
+      <view class="collect" bindtap='collect'>收藏</view>
+    </view>
+  </view>
+  <view class="down">
+  <block wx:for="{{hadsaid}}">
+    <navigator class="item" url="../message/message?id={{item.id}}">
+      <view class="word">{{item.word}}</view>
+      <view class="resttime">{{item.resttime}}</view>
+      <view class="publishtime">{{item.publishtime}}</view>
+    </navigator>
+  </block>
+  </view>
+</scroll-view>

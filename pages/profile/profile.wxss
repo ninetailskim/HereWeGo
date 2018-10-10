@@ -1,0 +1,89 @@
+/* page/profile/profile.wxss */
+.page-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.up{
+  margin: 10rpx 10rpx;
+  flex: 1;
+  display: flex;
+  height: 200rpx;
+}
+
+.head{
+  width:100%;
+  height:100%;
+}
+
+.upleft{
+  width:29%;
+  border: 1px solid red;
+}
+
+.upright{
+  width:69%;
+  border: 1px solid red;
+}
+.down{
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.name, .grade, .hat{
+  margin-top: 10rpx;
+  margin-bottom: 14rpx;
+  margin-left: 10rpx;
+  border: 1px solid red;
+}
+
+.name{
+  font-size:32rpx;
+}
+
+.grade, .hat{
+  padding-top: 6rpx;
+  margin-top: 6rpx;
+  font-size: 22rpx;
+  color: #c0c0c0
+}
+
+.name, .grade{
+  float:left;
+}
+
+.louder, .collect{
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+  display: block;
+  border: 1px solid red;
+}
+
+.item{
+  margin: 10rpx 10rpx;
+  border: 1px solid red;
+}
+
+.word{
+  font-size: 40rpx;
+  margin-left: 20rpx;
+  margin-top:20rpx;
+}
+
+.resttime{
+  font-size:30rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  float: left;
+  color: #c0c0c0
+}
+
+.publishtime{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 10rpx;
+  float: right;
+  color: #c0c0c0
+}

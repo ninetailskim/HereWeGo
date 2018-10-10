@@ -1,0 +1,16 @@
+<view>
+  <view class="textareaview">
+    <textarea class="textarea">
+
+    </textarea>
+  </view>
+  <view class="addimage">
+    <block wx:for="{{selectedimage}}">
+      <image class="seimages" src="{{item}}"></image>
+    </block>
+    <image src="../../image/icon/addimage.png" bindtap='addimage' class="seimages"></image>
+  </view>
+  <view class="publish">
+    <button class="publishbutton" bindtap='publish'>说出来</button>
+  </view>
+</view>

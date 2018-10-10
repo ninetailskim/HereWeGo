@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/publish/publish"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Here to Say",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "list":[
+      {
+        "text":"发现",
+        "pagePath":"pages/index/index"
+      },{
+        "text":"说话",
+        "pagePath":"pages/publish/publish"
+      },{
+        "text":"我的",
+        "pagePath":"pages/profile/profile"
+      }
+    ]
+  }
+}
